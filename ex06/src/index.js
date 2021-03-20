@@ -1,11 +1,11 @@
 // Only change code below this line
-function multiplyArrayFunction(myArr) {
+function multiplyArrayFunction(myArray) {
     var product = 1;
     var sum = 0;
-    for (var i = 0; i < myArr.length; i++) {
-        for (var j = 0; j < myArr[i].length; j++) {
-            product *= myArr[i][j];
-            sum += myArr[i][j];
+    for (var i = 0; i < myArray.length; i++) {
+        for (var j = 0; j < myArray[i].length; j++) {
+            product *= myArray[i][j];
+            sum += myArray[i][j];
         }
     }
     return [product, sum];
